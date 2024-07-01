@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8474c3c1fe5f975a09aed40825a4d2f2, type: 3}
+  m_Name: GumScriptableObject
+  m_EditorClassIdentifier: 
+  sizeClasses: 5
+  maxSprouts: 5
+  maturity: 800
+  stemRadii:
+  - 0.4
+  - 0.6
+  - 1.2
+  - 2.8
+  - 3
+  growthRate:
+  - 0.002739726
+  - 0.0020408162
+  - 0.0009090909
+  - 0.0004
+  - 0.00014285714
+  spaceFilling: 5
+  canopyGeometry: 0.05
+  stemDistance: []
+  canopyDistance: []
